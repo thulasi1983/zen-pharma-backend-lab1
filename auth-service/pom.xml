@@ -137,7 +137,7 @@
         </executions>
       </plugin>
 
-      <!-- Sonar Maven plugin -->
+      <!-- Sonar Maven plugin for Scanning the code-->
       <plugin>
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
