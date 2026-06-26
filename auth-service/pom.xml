@@ -98,7 +98,7 @@
         </configuration>
       </plugin>
 
-      <!-- JaCoCo: instrument tests and produce XML coverage report for SonarCloud -->
+      <!-- JaCoCo: An instrument tests and produce XML coverage report for SonarCloud -->
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
