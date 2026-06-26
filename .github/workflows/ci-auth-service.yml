@@ -89,7 +89,7 @@ jobs:
           RUN_ID: ${{ github.run_id }}
           GITOPS_REPO_NAME: ${{ env.GITOPS_REPO }}
         run: |
-          VALUES="_gitops/envs/qa/values-auth-service.yaml"
+          VALUES="/envs/qa/values-auth-service.yaml"
           BRANCH="promote/qa/auth-service/${IMAGE_TAG}"
 
           if [[ ! -f "$VALUES" ]]; then
